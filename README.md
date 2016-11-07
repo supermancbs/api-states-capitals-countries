@@ -20,8 +20,9 @@ $ rake db:create <br/>
 $ rake db:migrate <br/>
 $ rake db:seed <br/>
 
-You can now view the JSON at the end points after starting a local server
-by typing rails s in the terminal.
+This application uses Postgres so make sure that have that running in your background
+before starting a server. You can now view the JSON at the end points after starting a local server
+by typing rails s in the terminal, assuming Postgres is up.
 
 # Tests
 
